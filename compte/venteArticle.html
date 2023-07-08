@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <title>Ajouter un article</title>
+  <link href="../compte/article.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript">
+    function updateFileLabel(input) {
+      const fileContainer = input.parentElement;
+      if (input.value) {
+        fileContainer.classList.add('has-file');
+      } else {
+        fileContainer.classList.remove('has-file');
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="center">
+    <h1>Ajouter un article</h1>
+    <form method="post" action="../compte/traitementVenteArticle.php" enctype="multipart/form-data">
+      <div class="txt_field">
+        <input type="text" required name="Nom">
+        <span></span>
+        <label>Nom de l'article *</label>
+      </div>
+      <div class="txt_field">
+        <input type="number" required name="Prix" step="0.01">
+        <span></span>
+        <label>Prix *</label>
+      </div>
+      <div class="photo_field">
+        <input type="file" required name="Photo[]" multiple>
+        <label>Photo(s) *
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+        <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+        <path d="M128 64c0-35.3 28.7-64 64-64H352V128c0 17.7 14.3 32 32 32H512V448c0 35.3-28.7 64-64 64H192c-35.3 0-64-28.7-64-64V336H302.1l-39 39c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9l-80-80c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l39 39H128V64zm0 224v48H24c-13.3 0-24-10.7-24-24s10.7-24 24-24H128zM512 128H384V0L512 128z"/>
+        </svg>
+        </label>
+      </div>
+      <div class="desc_field">
+        <textarea type="text" required name="Description"></textarea>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <label>Description *</label>
+      </div>
+      <div class="select_field">
+        <select required name="Categorie" id="Categorie">
+          <option value="" disabled selected>Choix de la catégorie</option>
+          <option value="Meubles et objets d art">Meubles et objets d'art</option>
+          <option value="Articles de luxe">Articles de luxe</option>
+          <option value="Articles réguliers">Articles réguliers</option>
+        </select>
+        <span></span>
+        <label>Catégorie *</label>
+      </div>
+      <div colspan="2" align="center">
+        <tr>
+          <td>
+            <input type="radio" name="typeVente" value="Encheres" required> Enchères
+            <input type="radio" name="typeVente" value="Ventes"> Ventes
+          </td>
+        </tr>
+      </div>
+      <div class="texte">Agora Francia</div>
+      <input type="submit" name="Ventes" value="Ajouter">
+      <div class="texte">Agora Francia</div>
+    </form>
+  </div>
+</body>
+</html>

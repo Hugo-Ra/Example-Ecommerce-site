@@ -1,0 +1,509 @@
+/*--------------------------------------------------section--------------------------------------------------*/
+#section {
+    background: linear-gradient(#c3edfd, white 10%);
+    padding: 25px;
+}
+#section h1 {
+    text-align: left;
+    padding: 5px;
+}
+#section h2 {
+    text-align: left;
+    padding: 10px;
+}
+/*--------------------------------------------------Bouton Enchères et Vente--------------------------------------------------*/
+.ench_vente {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.ench_vente input {
+    background-color: #2691d9;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 37.5px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.9em;
+    height: 75px;
+    width: 225px;
+    margin: 50px;
+}
+.ench_vente input:hover {
+    border: 1px solid black;
+    background: #1082ce;
+}
+.ench_vente input:active {
+    background: #0065a9;
+    color: rgb(175, 175, 175);
+}
+/*--------------------------------------------------Carousel 1--------------------------------------------------*/
+#carrousel1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#carrousel1 img {
+    border: 2px solid rgb(125, 125, 125);
+    transition: all 0.1s;
+}
+#carrousel1 img:hover {
+    border : 2px solid #000000;
+    box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+/*--------------------------------------------------Carousel 2--------------------------------------------------*/
+#carrousel2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#carrousel2 img {
+    border: 2px solid rgb(125, 125, 125);
+    transition: all 0.1s;
+}
+#carrousel2 img:hover {
+    border : 2px solid #000000;
+    box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+/*--------------------------------------------------Carousel 3--------------------------------------------------*/
+#carrousel3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#carrousel3 img {
+    border: 2px solid rgb(125, 125, 125);
+    transition: all 0.1s;
+}
+#carrousel3 img:hover {
+    border : 2px solid #000000;
+    box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+/*--------------------------------Flex container du carousel, de ses données et des photos--------------------------------*/
+#encadre0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+#encadre1 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%
+}
+#encadre2 {
+    flex: 0.5;
+    flex-basis: 0;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+#encadre3 {
+    flex: 1;
+    flex-basis: 0;
+    align-items: stretch;
+    display: flex;
+    justify-content: flex-start;
+}
+#encadre4 {
+    flex: 2;
+    flex-basis: 0;
+    padding: 15px;
+}
+#encadre5 {
+    flex: 1;
+    flex-basis: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+}
+/*--------------------------------Bouton gauche 1--------------------------------*/
+#prevnext1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 25px;
+}
+#prevnext1 button {
+    background-color: #2691d9;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 50px;
+    fill: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25em;
+    height: 50px;
+    width: 50px;
+    padding-bottom: 2.5px;
+}
+#prevnext1 button:hover {
+    background: #1082ce;
+    border: 1px solid black;
+}
+#prevnext1 button:active {
+    background: #0065a9;
+    fill: rgb(175, 175, 175);
+}
+/*--------------------------------Bouton droite 1--------------------------------*/
+#prevnext4 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+#prevnext4 button {
+    background-color: #2691d9;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 50px;
+    fill: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25em;
+    height: 50px;
+    width: 50px;
+    padding-bottom: 2.5px;
+}
+#prevnext4 button:hover {
+    background: #1082ce;
+    border: 1px solid black;
+}
+#prevnext4 button:active {
+    background: #0065a9;
+    fill: rgb(175, 175, 175);
+}
+/*--------------------------------Bouton gauche 2--------------------------------*/
+#prevnext2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 25px;
+}
+#prevnext2 button {
+    background-color: #2691d9;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 50px;
+    fill: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25em;
+    height: 50px;
+    width: 50px;
+    padding-bottom: 2.5px;
+}
+#prevnext2 button:hover {
+    background: #1082ce;
+    border: 1px solid black;
+}
+#prevnext2 button:active {
+    background: #0065a9;
+    fill: rgb(175, 175, 175);
+}
+/*--------------------------------Bouton droite 2--------------------------------*/
+#prevnext5 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+#prevnext5 button {
+    background-color: #2691d9;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 50px;
+    fill: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25em;
+    height: 50px;
+    width: 50px;
+    padding-bottom: 2.5px;
+}
+#prevnext5 button:hover {
+    background: #1082ce;
+    border: 1px solid black;
+}
+#prevnext5 button:active {
+    background: #0065a9;
+    fill: rgb(175, 175, 175);
+}
+/*--------------------------------Bouton gauche 3--------------------------------*/
+#prevnext3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 25px;
+}
+#prevnext3 button {
+    background-color: #2691d9;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 50px;
+    fill: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25em;
+    height: 50px;
+    width: 50px;
+    padding-bottom: 2.5px;
+}
+#prevnext3 button:hover {
+    background: #1082ce;
+    border: 1px solid black;
+}
+#prevnext3 button:active {
+    background: #0065a9;
+    fill: rgb(175, 175, 175);
+}
+/*--------------------------------Bouton droite 3--------------------------------*/
+#prevnext6 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+#prevnext6 button {
+    background-color: #2691d9;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 50px;
+    fill: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25em;
+    height: 50px;
+    width: 50px;
+    padding-bottom: 2.5px;
+}
+#prevnext6 button:hover {
+    background: #1082ce;
+    border: 1px solid black;
+}
+#prevnext6 button:active {
+    background: #0065a9;
+    fill: rgb(175, 175, 175);
+}
+/*--------------------------------Données des l'article--------------------------------*/
+#img-info1 p:nth-child(1) {
+    font-size: large;
+    font-weight : 550;
+}
+#img-info1 p:nth-child(2) {
+    font-size: xx-large;
+    font-weight : 675;
+}
+#img-info1 p:nth-child(3) {
+    font-size: medium;
+    font-weight : 400;
+    text-decoration: underline;
+}
+#img-info1 p:nth-child(4) {
+    font-size: medium;
+    font-weight : 390;
+}
+#img-info1 p:nth-child(5) {
+    font-size: x-large;
+    font-weight : 625;
+}
+/*--------------------------------Données des l'article--------------------------------*/
+#img-info2 p:nth-child(1) {
+    font-size: large;
+    font-weight : 550;
+}
+#img-info2 p:nth-child(2) {
+    font-size: xx-large;
+    font-weight : 675;
+}
+#img-info2 p:nth-child(3) {
+    font-size: medium;
+    font-weight : 400;
+    text-decoration: underline;
+}
+#img-info2 p:nth-child(4) {
+    font-size: medium;
+    font-weight : 390;
+}
+#img-info2 p:nth-child(5) {
+    font-size: x-large;
+    font-weight : 625;
+}
+/*--------------------------------Données des l'article--------------------------------*/
+#img-info3 p:nth-child(1) {
+    font-size: large;
+    font-weight : 550;
+}
+#img-info3 p:nth-child(2) {
+    font-size: xx-large;
+    font-weight : 675;
+}
+#img-info3 p:nth-child(3) {
+    font-size: medium;
+    font-weight : 400;
+    text-decoration: underline;
+}
+#img-info3 p:nth-child(4) {
+    font-size: medium;
+    font-weight : 390;
+}
+#img-info3 p:nth-child(5) {
+    font-size: x-large;
+    font-weight : 625;
+}
+/*--------------------------------Photos supplémentaires--------------------------------*/
+#img-bonus1 img {
+    border: 2px solid rgb(125, 125, 125);
+    margin: 5px;
+    transition: all 0.1s;
+}
+#img-bonus1 img:hover {
+    border : 2px solid #000000;
+    box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5);
+    transform: scale(1.1);
+}
+/*--------------------------------Photos supplémentaires--------------------------------*/
+#img-bonus2 img {
+    border: 2px solid rgb(125, 125, 125);
+    margin: 5px;
+    transition: all 0.1s;
+}
+#img-bonus2 img:hover {
+    border : 2px solid #000000;
+    box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5);
+    transform: scale(1.1);
+}
+/*--------------------------------Photos supplémentaires--------------------------------*/
+#img-bonus3 img {
+    border: 2px solid rgb(125, 125, 125);
+    margin: 5px;
+    transition: all 0.1s;
+}
+#img-bonus3 img:hover {
+    border : 2px solid #000000;
+    box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.5);
+    transform: scale(1.1);
+}
+/*--------------------------------Boutons Panier et Négocier/Enchérir--------------------------------*/
+#action1 {
+    padding-right: 25px;
+}
+#action1 input {
+    background-color: #2691d9;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 50px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+    height: 45px;
+    width: 165px;
+}
+#action1 input:hover {
+    background: #1082ce;
+    border: 1px solid black;
+}
+#action1 input:active {
+    background: #0065a9;
+    color: rgb(175, 175, 175);
+}
+#action1 input[type=number] {
+    background-color: white;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 50px;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+    height: 45px;
+    width: 165px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#action1 input:hover[type=number] {
+    border: 1px solid black;
+}
+/*--------------------------------Boutons Panier et Négocier/Enchérir--------------------------------*/
+#action2 {
+    padding-right: 25px;
+}
+#action2 input {
+    background-color: #2691d9;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 50px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+    height: 45px;
+    width: 165px;
+}
+#action2 input:hover {
+    background: #1082ce;
+    border: 1px solid black;
+}
+#action2 input:active {
+    background: #0065a9;
+    color: rgb(175, 175, 175);
+}
+#action2 input[type=number] {
+    background-color: white;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 50px;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+    height: 45px;
+    width: 165px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#action2 input:hover[type=number] {
+    border: 1px solid black;
+}
+/*--------------------------------Boutons Panier et Négocier/Enchérir--------------------------------*/
+#action3 {
+    padding-right: 25px;
+}
+#action3 input {
+    background-color: #2691d9;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 50px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+    height: 45px;
+    width: 165px;
+}
+#action3 input:hover {
+    background: #1082ce;
+    border: 1px solid black;
+}
+#action3 input[type=number] {
+    background-color: white;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 50px;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+    height: 45px;
+    width: 165px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#action3 input:hover[type=number] {
+    border: 1px solid black;
+}
+#action3 input:active {
+    background: #0065a9;
+    color: rgb(175, 175, 175);
+}
+#envoieID {
+    visibility: hidden;
+    width: 1px;
+}
+#envoieID_item {
+    visibility: hidden;
+    width: 1px;
+}
+#envoieID_article {
+    visibility: hidden;
+    width: 1px;
+}

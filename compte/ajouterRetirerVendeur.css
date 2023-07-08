@@ -1,0 +1,147 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#9ff1ff,#eec0c6);
+}
+#wrapper {
+    background: white;
+    width: 1000px;
+    max-width: 1000px;
+    max-height: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-align: justify;
+    border: 1px solid black;
+    
+    overflow: auto;
+    
+}
+.photophoto{
+    padding-bottom: 5px;
+}
+#photo{
+    max-height: 120px;
+    max-width: 120px;
+    border: 1px solid rgb(175, 175, 175);
+}
+#titre{
+    position: sticky;
+    top:0;
+    height: 55px;
+    background-color: white;
+    text-align: center;
+    font-size: x-large;
+    border-bottom: 1px solid black;
+}
+
+table{
+    
+    margin: 10px;
+    text-align: center;
+    width: 950px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border:1px solid black;
+}
+#informations{
+    text-align: center;
+}
+#id{
+    margin-left: 10px;
+}
+#envoyer{
+    text-align: center;
+    margin-top: 10px;
+}
+#btn-conv{
+    text-align: center;
+}
+
+#text-chatbox{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#retour{
+    border-top: 1px solid black;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sup {
+    text-align: center;
+}
+.sup input {
+    background-color: #d51b1b;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 37.5px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    height: 45px;
+    width: 200px;
+    margin: 25px;
+}
+.sup input.souris1:hover {
+    background: #b80909;
+    border: 1px solid black;
+}
+.sup input.souris1:active {
+    background: #7f0101;
+    color: rgb(175, 175, 175);
+}
+
+.ajout {
+    text-align: center;
+}
+.ajout input {
+    background-color: #2691d9;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 37.5px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.15em;
+    height: 50px;
+    width: 190px;
+    margin: 25px;
+}
+.ajout input.souris2:hover {
+    background: #1082ce;
+    border: 1px solid black;
+}
+.ajout input.souris2:active {
+    background: #0065a9;
+    color: rgb(175, 175, 175);
+}
+
+.retour {
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+}
+.retour input {
+    background-color: #115fd3;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 37.5px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    height: 60px;
+    width: 210px;
+    margin: 25px;
+}
+.retour input.souris3:hover {
+    background: #0854c7;
+    border: 1px solid black;
+}
+.retour input.souris3:active {
+    background: #003584;
+    color: rgb(175, 175, 175);
+}

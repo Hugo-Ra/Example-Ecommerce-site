@@ -1,0 +1,167 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#9ff1ff,#eec0c6);
+}
+#wrapper {
+    background: white;
+    width: 700px;
+    height: 500px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-align: justify;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: auto;
+    word-break: break-all;
+}
+#titre{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+    color:#1082ce;
+    background-color: white;
+}
+#offre{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#envoyer{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.envoyerbouton {
+    text-align: center;
+}
+.envoyerbouton input {
+    background-color: #2691d9;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 37.5px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.9em;
+    height: 32.5px;
+    width: 155px;
+    margin: 10px;
+}
+.envoyerbouton input.souris2:hover {
+    background: #1082ce;
+    border: 1px solid black;
+}
+.envoyerbouton input.souris2:active {
+    background: #0065a9;
+    color: rgb(175, 175, 175);
+}
+
+.quitter {
+    position: sticky;
+    text-align: center;
+    bottom: 0;
+}
+.quitter input {
+    background-color: #d51b1b;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 37.5px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    height: 45px;
+    width: 200px;
+    margin: 25px;
+}
+.quitter input.souris3:hover {
+    background: #b80909;
+    border: 1px solid black;
+}
+.quitter input.souris3:active {
+    background: #7f0101;
+    color: rgb(175, 175, 175);
+}
+#faire-offre{
+    margin-top: 10px;
+    text-align: center;
+}
+#text-chatbox{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width : 100%;
+}
+.msg {
+    margin-right: 25px;
+}
+#retour{
+    background: white;
+    position: sticky;
+    bottom: 0;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 10px;
+    height: 110px;
+}
+
+.offre {
+    text-align: center;
+}
+.offre input {
+    background-color: #115fd3;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 37.5px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.9em;
+    height: 32.5px;
+    width: 155px;
+    margin: 10px;
+}
+.offre input.souris13:hover {
+    background: #0854c7;
+    border: 1px solid black;
+}
+.offre input.souris13:active {
+    background: #003584;
+    color: rgb(175, 175, 175);
+}
+.faireOffre {
+    display: flex; 
+    flex-direction: row;
+    justify-content:: center;
+    align-items: center;
+    padding-left: 25%;
+}
+.choixOffre input {
+    background-color: #115fd3;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 37.5px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.9em;
+    height: 32.5px;
+    width: 155px;
+    margin: 10px;
+}
+.choixOffre input.souris24:hover {
+    background: #0854c7;
+    border: 1px solid black;
+}
+.choixOffre input.souris24:active {
+    background: #003584;
+    color: rgb(175, 175, 175);
+}
+.choixOffre input.souris25:hover {
+    background: #0854c7;
+    border: 1px solid black;
+}
+.choixOffre input.souris25:active {
+    background: #003584;
+    color: rgb(175, 175, 175);
+}

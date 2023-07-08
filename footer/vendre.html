@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/ico" href="../img-images/favicon.ico"/>
+    <title>Vendre - Agora Francia</title>
+    <link href="../styles.css" rel="stylesheet" type="text/css"/>
+    <link href="../footer/vendre.css" rel="stylesheet" type="text/css"/>
+    <!-- Importation de Font Awesome via un lien CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.header').height($(window).height());
+        });
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Agora</h1>
+            <img class="rotation-horizontale" src="../img-images/logo.png" alt="Logo Agora Francia" height="100" width="100">
+            <h1>Francia</h1>
+        </div>
+        <div id="nav">
+            <div class="boutons-1-2">
+                <a class="bouton" href="../accueil/accueil.php">Accueil</a>
+                <a class="bouton" href="../parcourir/parcourir.php">Tout Parcourir</a>
+            </div>
+            <div class="boutons-3-4-5">
+                <div class="element">
+                    <a class="bouton" href="../notifications/notifications.php">Notifications</a>
+                    <a class="wobble-hor-top" href="../notifications/notifications.php">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="element">
+                    <a class="bouton" href="../panier/panier.php">Panier</a>
+                    <a class="slide-out-blurred-top" href="../panier/panier.php">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M253.3 35.1c6.1-11.8 1.5-26.3-10.2-32.4s-26.3-1.5-32.4 10.2L117.6 192H32c-17.7 0-32 14.3-32 32s14.3 32 32 32L83.9 463.5C91 492 116.6 512 146 512H430c29.4 0 55-20 62.1-48.5L544 256c17.7 0 32-14.3 32-32s-14.3-32-32-32H458.4L365.3 12.9C359.2 1.2 344.7-3.4 332.9 2.7s-16.3 20.6-10.2 32.4L404.3 192H171.7L253.3 35.1zM192 304v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16zm96-16c8.8 0 16 7.2 16 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16zm128 16v96c0 8.8-7.2 16-16 16s-16-7.2-16-16V304c0-8.8 7.2-16 16-16s16 7.2 16 16z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="element">
+                    <a class="bouton" href="../compte/compte.php">Votre Compte</a>
+                    <a class ="pulsate-fwd" href="../compte/compte.php">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M399 384.2C376.9 345.8 335.4 320 288 320H224c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="section">
+            <h1>Vendre</h1>
+            <p>Si vous souhaitez vendre un article, vous devez créer un compte vendeur ou vous connecter à un compte existant. Cela vous permettra d'accéder à toutes les fonctionnalités nécessaires pour vendre vos produits en toute simplicité.</p> 
+            <p>Si vous possédez déjà un compte vendeur, il vous suffit de vous connecter avec vos identifiants. Si vous êtes nouveau sur notre plateforme, vous pouvez facilement vous inscrire en fournissant les informations requises. Une fois votre compte créé, vous pourrez personnaliser votre profil en téléchargeant une photo de profil et en choisissant un fond d'écran personnalisé. Nous voulons que vous vous sentiez à l'aise et que vous puissiez mettre en avant votre identité en tant que vendeur.</p> 
+            <p>Lorsque vous êtes sur la page de votre compte vendeur, vous pouvez commencer à vendre vos articles. Vous aurez la possibilité de créer des annonces détaillées pour présenter vos produits aux acheteurs potentiels. Assurez-vous d'inclure des descriptions précises, des images attrayantes et toutes les informations pertinentes pour attirer l'attention des acheteurs.</p>
+            <p>Nous avons organisé nos catégories de produits de manière à ce que vous puissiez choisir celle qui correspond le mieux à votre article. Que vous vendiez des vêtements, des appareils électroniques, des meubles ou tout autre type de produit, nous avons des catégories adaptées pour vous aider à atteindre votre public cible.</p> 
+            <p>Lorsqu'il s'agit de vendre vos articles, nous vous offrons plusieurs options pour répondre à vos besoins. Vous pouvez choisir la vente immédiate, où les acheteurs peuvent acheter votre article instantanément au prix que vous avez fixé. Cela permet une transaction rapide et directe.</p> 
+            <p>Si vous préférez avoir un peu plus de flexibilité dans le processus de vente, vous pouvez opter pour la négociation. Les acheteurs peuvent vous soumettre des offres de prix différentes, et vous avez la possibilité d'accepter, de refuser ou de contre-offrir. Cela vous permet d'explorer des possibilités de négociation et de trouver un accord qui convient à toutes les parties.</p> 
+            <p>En outre, nous offrons également la possibilité de vendre vos articles aux enchères. Vous pouvez fixer une durée spécifique pendant laquelle les acheteurs peuvent enchérir sur votre article. À la fin de la période d'enchères, l'acheteur ayant proposé l'offre la plus élevée remporte l'article.</p> 
+            <p>Nous voulons que votre expérience de vente sur notre plateforme soit aussi simple et fluide que possible. Si vous avez des questions ou avez besoin d'aide à tout moment, notre équipe de service client est là pour vous accompagner. Profitez de nos fonctionnalités personnalisées, de nos catégories de produits variées et de nos différentes options de vente pour maximiser votre potentiel de vente. Commencez dès maintenant et partagez vos produits exceptionnels avec notre communauté en ligne !</p>
+        </div>
+        <div id="footer">
+            <div class="top">
+                <div class="bloc-1">
+                    <h1>Agora Francia</h1>
+                    <p class="description">Notre site web est une plateforme de vente en ligne destinée au grand public. Les clients peuvent acheter une variété d'articles disponibles sur le site, avec une interface conviviale et des options de paiement sécurisées. Nous nous engageons à fournir un service client attentif et à rendre l'expérience d'achat en ligne agréable et pratique.</p>
+                </div>
+                <div class="bloc-2">
+                    <h4>En savoir plus</h4>
+                    <a class="lien" href="../footer/acheter.html">Acheter</a><br>
+                    <a class="lien" href="../footer/vendre.html">Vendre</a><br>
+                    <a class="lien" href="../footer/charte.html">Charte</a><br>
+                    <a class="lien" href="../footer/politique.html">Politique de Confidentialité</a><br>
+                    <a class="lien" href="../footer/conditions.html">Conditions d'utilisation</a><br>
+                    <a class="lien" href="../footer/auteur.html">Droits d'auteur</a><br>
+                </div>
+                <div class="bloc-3">
+                    <h4>Navigation</h4>
+                    <a class="lien" href="../accueil/accueil.php">Accueil</a><br>
+                    <a class="lien" href="../parcourir/parcourir.php">Tout Parcourir</a><br>
+                    <a class="lien" href="../panier/panier.php">Panier</a><br><br>
+                    <h4>Contact</h4>
+                    contact@agorafrancia.com<br>
+                    01 27 27 09 09<br>
+                    10 Rue Sextius Michel, 75015 Paris<br>
+                </div>
+                <div class="bloc-4">
+                    <h4>Localisation</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.3726222018067!2d2.2885375999999997!3d48.8511045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6701b486bb253%3A0x61e9cc6979f93fae!2s10%20Rue%20Sextius%20Michel%2C%2075015%20Paris!5e0!3m2!1sfr!2sfr!4v1685319208343!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+                </div>
+            </div>
+            <div class="bottom">
+                &copy; 2023 Agora Francia. Tous droits réservés.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

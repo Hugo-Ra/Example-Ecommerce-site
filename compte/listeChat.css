@@ -1,0 +1,141 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#9ff1ff,#eec0c6);
+}
+#wrapper {
+    background: white;
+    width: 600px;
+    max-width: 750px;
+    max-height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-align: justify;
+    border: 1px solid black;
+    overflow: auto;   
+}
+
+#menu{ 
+    position: sticky;
+    top: 0; 
+    background-color: white; 
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+#photo{
+    max-height: 120px;
+    max-width: 120px;
+}
+
+span {
+    margin-right: 10px;
+    }
+table{
+    text-align: center;
+    border:1px solid black;
+    width: 550px;
+}
+#informations{
+    text-align: center;
+}
+
+#envoyer{
+    text-align: center;
+    margin-top: 10px;
+}
+#btn-conv{
+    text-align: center;
+}
+
+#text-chatbox{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#retour{
+    background: white;
+    position: sticky;
+    bottom: 0;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 10px;
+    height: 110px;
+}
+#retour input {
+    background-color: #d51b1b;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 37.5px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    height: 45px;
+    width: 200px;
+    margin: 25px;
+}
+#retour input.souris18:hover {
+    background: #b80909;
+    border: 1px solid black;
+}
+#retour input.souris18:active {
+    background: #7f0101;
+    color: rgb(175, 175, 175);
+}
+.ret {
+    text-align: center;
+}
+.ret input {
+    background-color: #115fd3;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 37.5px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    height: 75px;
+    width: 250px;
+    margin: 25px;
+}
+.ret input.souris1:hover {
+    background: #0854c7;
+    border: 1px solid black;
+}
+.ret input.souris1:active {
+    background: #003584;
+    color: rgb(175, 175, 175);
+}
+.voirConv{
+    text-align: center;
+    margin-top: 10px;
+    height: 110px;
+}
+.voirConv input {
+    background-color: #2691d9;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 37.5px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.9em;
+    height: 32.5px;
+    width: 155px;
+    margin: 10px;
+}
+.voirConv input.souris19:hover {
+    background: #1082ce;
+    border: 1px solid black;
+}
+.voirConv input.souris19:active {
+    background: #0065a9;
+    color: rgb(175, 175, 175);
+}
+.personne p {
+    margin-top: 20px;
+}
+.laPhoto img {
+    border: 1px solid rgb(175, 175, 175);
+}

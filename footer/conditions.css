@@ -1,0 +1,18 @@
+/*--------------------------------------------------section--------------------------------------------------*/
+#section {
+    align-items: center;
+    display: flex;
+    background: linear-gradient(#c3edfd, white 10%);
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 25px;
+    padding-top: 50px;
+}
+#section h1 {
+    text-align: center;
+}
+#section p {
+    text-align: justify;
+    text-align-last: left;
+    width: 70%;
+}

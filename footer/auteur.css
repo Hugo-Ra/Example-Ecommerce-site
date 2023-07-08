@@ -1,0 +1,14 @@
+/*--------------------------------------------------section--------------------------------------------------*/
+#section {
+    align-items: center;
+    display: flex;
+    background: linear-gradient(#c3edfd, white 10%);
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+#section h1 {
+    padding-bottom: 10px;
+    text-align: center;
+}
